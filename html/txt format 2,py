@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Tags</title>
+</head>
+<body>
+
+    <h2>Pre Tag</h2>
+    <pre>
+Hello
+Welcome
+    </pre>
+
+    <h2>Code Tag</h2>
+    <code>print("Hello")</code>
+
+    <h2>Blockquote</h2>
+    <blockquote>
+        Learning is fun
+    </blockquote>
+
+    <h2>Quote Tag</h2>
+    <p><q>Hello Friend</q></p>
+
+    <h2>Abbreviation</h2>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+
+    <h2>Address</h2>
+    <address>
+        India
+    </address>
+
+</body>
+</html>
