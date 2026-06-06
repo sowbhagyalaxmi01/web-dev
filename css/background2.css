@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(to right, pink, violet);
+}
+
+h1{
+    color: white;
+    background-color: purple;
+    font-style: italic;
+    padding: 10px;
+}
+
+p{
+    color: navy;
+    background-color: yellow;
+    padding: 5px;
+}
