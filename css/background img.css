@@ -1,0 +1,9 @@
+h1{
+    color: rgb(92, 36, 36);
+}
+
+body{
+    background-image: url("/html/dog.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
