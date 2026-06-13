@@ -1,0 +1,15 @@
+h1{
+    border: 3px solid rgb(121, 6, 121);
+    border-radius: 20px;
+    display: inline;
+    
+}
+p{
+    border-top:3px solid rgb(155, 155, 11);
+    border-bottom:3px solid rgb(26, 23, 207);
+    border-left:3px dotted rgb(138, 78, 0);
+    border-right:3px dotted rgb(178, 34, 137) ;
+    border-radius: 20px;
+    display: inline-block;
+
+}
