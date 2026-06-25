@@ -1,0 +1,12 @@
+ #box1{
+    height:200;
+    width:200;
+    background-color: blue;
+    position:relative;
+    top:100px;
+    left:100px;
+    top:-100px;
+    left:-100px;
+    
+
+ }
