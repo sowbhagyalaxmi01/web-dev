@@ -1,12 +1,24 @@
  #box1{
-    height:200;
     width:200;
+    height:200;
     background-color: blue;
-    position:relative;
-    top:100px;
+    postion:sticky;
+    postion:relative;
+    /* top:100px;
     left:100px;
     top:-100px;
-    left:-100px;
-    
+    left:-100px; */
+    top:100px;
+    left:100px;
 
  }
+ #box2{
+    width:200;
+    height:200;
+    background-color: blue;
+    /* position:absolute; */
+    postion:static:
+    top:50px;
+    left: 50px;
+ }
+
