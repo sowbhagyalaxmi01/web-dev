@@ -3,37 +3,209 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Portfolio</title>
 </head>
 <body>
-    
-    <h3>Store hours</h3>
 
-    <table border="1" style="background-color:black;">
-        <tr align="center" style="background-color:lightblue;">
-            <th width="100">Sunday</th>
-            <th width="100" >Monday</th>
-            <th width="100">Tuesday</th>
-            <th width="100">Wednesday</th>
-            <th width="100">Thursday</th>
-            <th width="100">Friday</th>
-            <th width="100">Saturday</th>
+    <!-- Header -->
+    <header>
+        <h1>Student Portfolio</h1>
 
-        <tr align="center" style="background-color: aliceblue;">
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#education">Education</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
 
-            <td>Closed</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            
-        </tr>
+        <hr>
+    </header>
 
-        </tr>
+    <!-- Profile -->
+    <section>
+        <a href="html/passport size.jpg" target="_blank">
+            <img src="html/passport size.jpg"
+                 alt="Passport Size Photo"
+                 width="180"
+                 title="Click to view image">
+        </a>
 
-    
-    </table>
+        <h2>Name: Sowbhagya Laxmi</h2>
+
+        <h3>Introduction</h3>
+
+        <p>
+            Hello! I am Sowbhagya Laxmi.<br>
+            I am from Hyderabad.<br>
+            I am pursuing B.Tech 4th Year.<br>
+            I am passionate about programming and learning new technologies.
+        </p>
+
+        <hr>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            <strong>Career Objective:</strong><br>
+            I want to become a Software Developer and later build my career in
+            Artificial Intelligence and Machine Learning.
+        </p>
+
+        <hr>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic JavaScript</li>
+            <li>NumPy (Learning)</li>
+        </ul>
+
+        <hr>
+
+    </section>
+
+    <!-- Hobbies -->
+    <section>
+
+        <h2>Hobbies</h2>
+
+        <ul>
+            <li>Reading Books</li>
+            <li>Coding</li>
+            <li>Listening to Music</li>
+        </ul>
+
+        <hr>
+
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <table border="1" cellpadding="10">
+
+            <tr>
+                <th>Qualification</th>
+                <th>College</th>
+                <th>Year</th>
+                <th>CGPA</th>
+            </tr>
+
+            <tr>
+                <td>B.Tech</td>
+                <td>GNIT</td>
+                <td>2027</td>
+                <td>9.0</td>
+            </tr>
+
+            <tr>
+                <td>Intermediate</td>
+                <td>Sri Gitanjali Junior College</td>
+                <td>2023</td>
+                <td>9.8</td>
+            </tr>
+
+            <tr>
+                <td>SSC</td>
+                <td>Narayana Techno School</td>
+                <td>2021</td>
+                <td>10.0</td>
+            </tr>
+
+        </table>
+
+        <hr>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <ol>
+            <li>Student Portfolio Website</li>
+            <li>Calculator using Python</li>
+            <li>Student Management System</li>
+        </ol>
+
+        <hr>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <label>Name:</label><br>
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter your email"><br><br>
+
+            <label>Phone:</label><br>
+            <input type="tel" placeholder="Enter your phone number"><br><br>
+
+            <label>Message:</label><br>
+            <textarea rows="5" cols="30" placeholder="Enter your message"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+
+        <hr>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Contact Information</h3>
+
+        <p>Email: sowbhagyalaxmi@gmail.com</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/sowbhagyalaxmi01" target="_blank">
+                sowbhagyalaxmi01
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/sowbhagyalaxmi18" target="_blank">
+                sowbhagyalaxmi18
+            </a>
+        </p>
+
+        <p>
+            Author: Sowbhagya Laxmi
+        </p>
+
+        <p>
+            &copy; 2026 All Rights Reserved.
+        </p>
+
+    </footer>
+
 </body>
 </html>
