@@ -1,0 +1,19 @@
+.box{
+    width:100px;
+    height:100px;
+    background:red;
+    position:relative;
+
+    animation-name:move;
+    animation-duration:3s;
+}
+
+@keyframes move{
+    from{
+        left:0;
+    }
+
+    to{
+        left:300px;
+    }
+}
